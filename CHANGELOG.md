@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Unreleased
+
+### Changed
+- Updated `ctheorems` to `1.1.3` and `gentle-clues` to `1.3.1` for Typst 0.14 compatibility
+- Replaced deprecated paragraph show rules with `set par(...)`
+
 ## [v0.1.1](https://github.com/jamesxx/springer-spaniel/releases/tags/v0.1.1)
 
 ### Added

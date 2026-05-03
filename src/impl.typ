@@ -42,7 +42,7 @@
   set text(size: 9pt, weight: 450)
   set block(spacing: 1em)
   set par(justify: true, first-line-indent: 1.5em)
-  show par: set block(spacing: 0.65em)
+  set par(spacing: 0.65em)
   show par: set align(left)
 
   // --------------------------------------------------------------------------
@@ -160,7 +160,7 @@
       set text(size: 7.5pt)
       set par(first-line-indent: 0em)
       line(length: 25%, stroke: 0.75pt)
-      show par: set block(below: 1.5em)
+      set par(spacing: 1.5em)
 
       authors.map(
         (it)=>{
@@ -187,4 +187,3 @@
   // --------------------------------------------------------------------------
 
 }
-
